@@ -8,12 +8,20 @@
   font-family: 'Poppins', sans-serif;
 }
 
+html {
+  background-color: #737B80;
+}
+
+/* ------------Header--------------- */
+
 .Nav {
   display: flex;
+  position: fixed;
+  width: 100%;
   align-items: center;
   justify-content: space-between;
   padding: 1rem;
-  background-color: #333;
+  background-color: #33332E;
 }
 
 .Nav > .Options {
@@ -26,6 +34,9 @@
   padding: 0 0.5rem;
 }
 
+/* ------------------------------ */
+
+/* ------------Main--------------- */
 .Main {
   display: flex;
   align-items: center;
@@ -34,7 +45,7 @@
 }
 
 .Main > .Video > video {
-  position: relative;
+  margin-top: 3.6rem;
   width: 100%;
 }
 
@@ -48,7 +59,7 @@
 
 .textVideo {
   text-align: start;
-  color: #737B80;
+  color: #333333;
 }
 
 .textVideo > h1 {
@@ -58,3 +69,45 @@
 .textVideo > p {
   font-size: 20px;
 }
+
+.BoxCard{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr  ;
+  grid-template-rows: 1fr 1fr ;
+  align-self: center;
+  justify-content: space-evenly;
+  width: 100%;
+}
+
+.Cards {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  flex-direction: column;
+  background-color: #737B80;
+  
+  margin: 2rem 2.5rem ;
+  border-radius: 2%;
+  box-shadow:10px 5px 20px#333333;
+}
+
+.imgCard > img{
+  width: 100%;
+  height: 100%;
+}
+
+.textCard {
+  padding: 1rem;
+}
+
+.textCard > .Title {
+  margin: 1rem 0;
+  font-size: 26px;
+}
+
+.textCard > .Price {
+  font-size: 18px;
+}
+
+/* ----------------------------- */
+
