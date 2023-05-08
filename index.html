@@ -5,23 +5,29 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="./style/index.css" />
-    <title>Shopping</title>
+
+    <link rel="apple-touch-icon" sizes="180x180" href="assets/favicon_io/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="assets/favicon_io/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="assets/favicon_io/favicon-16x16.png">
+    <link rel="manifest" href="assets/favicon_io/site.webmanifest">
+
+    <title>Shopping</title><!-- Sem ideia para nome -->
   </head>
   <body>
     <div class="Header">
       <div class="Nav">
         <div class="Logo">
-          <img src="" alt=" do " class="imgLogo" />
+          <img src="assets/favicon_io/favicon-16x16.png" alt="Logo do Shopping" class="imgLogo" />
         </div>
         <div class="Options">
-          <a>Home</a>
-          <a>Produtos</a>
-          <a>Outros</a>
+          <a href="#Home">Home</a>
+          <a href="#Produtos" >Produtos</a>
+          <a href="#Outros">Outros</a>
         </div>
       </div>
     </div>
     <div class="Main">
-      <div class="Video">
+      <div class="Video" id="Home">
         <video autoplay loop muted src="assets/videos/Compilado.mp4"></video>
       </div>
       <div class="Section">
@@ -29,7 +35,7 @@
           <h1>Shopping</h1>
           <p>O melhor da nossa produção audiovisual para você!!</p>
         </div>
-        <div class="imgInfo"><img src="" alt="" /></div>
+        <div class="imgInfo"></div> <!--Não tenho uma imagem no momento-->
       </div>
       <div class="Section Sell">
         <div class="Section">
@@ -37,50 +43,32 @@
             <h1>3D</h1>
           </div>
         </div>
-        <div class="BoxCard">
+        <div class="BoxCard" id="Produtos">
           <div class="Cards">
             <div class="imgCard">
-              <img src="assets/images/Rosca.png" alt="" />
+              <img src="assets/images/Rosca.png" alt="Rosquinha com cobertura de chocolate." />
             </div>
             <div class="textCard">
-              <p class="Title">titulo</p>
-              <p class="Price">valor: 15,50</p>
+              <p class="Title">Rosquinha </p>
+              <p class="Price">valor: 8,50</p>
             </div>
           </div>
           <div class="Cards">
             <div class="imgCard">
-              <img src="assets/images/Rosca.png" alt="" />
+              <img src="assets/images/Espada.png" alt="Espada parecida com katana com empunhadura vermelha." />
             </div>
             <div class="textCard">
-              <p class="Title">titulo</p>
-              <p class="Price">valor: 15,50</p>
+              <p class="Title">Katana</p>
+              <p class="Price">valor: 20,00</p>
             </div>
           </div>
           <div class="Cards">
             <div class="imgCard">
-              <img src="assets/images/Rosca.png" alt="" />
+              <img src="assets/images/Pote.png" alt="Pote de barro feito a mão." />
             </div>
             <div class="textCard">
-              <p class="Title">titulo</p>
-              <p class="Price">valor: 15,50</p>
-            </div>
-          </div>
-          <div class="Cards">
-            <div class="imgCard">
-              <img src="assets/images/Rosca.png" alt="" />
-            </div>
-            <div class="textCard">
-              <p class="Title">titulo</p>
-              <p class="Price">valor: 15,50</p>
-            </div>
-          </div>
-          <div class="Cards">
-            <div class="imgCard">
-              <img src="assets/images/Rosca.png" alt="" />
-            </div>
-            <div class="textCard">
-              <p class="Title">titulo</p>
-              <p class="Price">valor: 15,50</p>
+              <p class="Title">Pote</p>
+              <p class="Price">valor: 5,00</p>
             </div>
           </div>
         </div>
@@ -92,61 +80,52 @@
         <div class="BoxCard">
           <div class="Cards">
             <div class="imgCard">
-              <img src="assets/images/Rosca.png" alt="" />
+              <img src="assets/images/Edicao.png" alt="Edição de vídeo, como cortes composição e compilado." />
             </div>
             <div class="textCard">
-              <p class="Title">titulo</p>
-              <p class="Price">valor: 15,50</p>
+              <p class="Title">Edição</p>
+              <p class="Price">valor: 25,00</p>
             </div>
           </div>
           <div class="Cards">
             <div class="imgCard">
-              <img src="assets/images/Rosca.png" alt="" />
+              <img src="assets/images/Audio.png" alt="Mixagem de áudio e nivelamento." />
             </div>
             <div class="textCard">
-              <p class="Title">titulo</p>
-              <p class="Price">valor: 15,50</p>
+              <p class="Title">Áudio</p>
+              <p class="Price">valor: 12,00</p>
             </div>
           </div>
           <div class="Cards">
             <div class="imgCard">
-              <img src="assets/images/Rosca.png" alt="" />
+              <img src="assets/images/Cor.png" alt="Correção de vor e maior nitidez." />
             </div>
             <div class="textCard">
-              <p class="Title">titulo</p>
-              <p class="Price">valor: 15,50</p>
+              <p class="Title">Correção de cor</p>
+              <p class="Price">valor: 20,50</p>
             </div>
           </div>
           <div class="Cards">
             <div class="imgCard">
-              <img src="assets/images/Rosca.png" alt="" />
+              <img src="assets/images/Nodes.png" alt="Produção utilizando nodes, sendo mais refinada e mais trabalhosa. Trazendo mais liberdade e efeitos." />
             </div>
             <div class="textCard">
-              <p class="Title">titulo</p>
-              <p class="Price">valor: 15,50</p>
-            </div>
-          </div>
-          <div class="Cards">
-            <div class="imgCard">
-              <img src="assets/images/Rosca.png" alt="" />
-            </div>
-            <div class="textCard">
-              <p class="Title">titulo</p>
-              <p class="Price">valor: 15,50</p>
+              <p class="Title">Produção com Nodes</p>
+              <p class="Price">valor: 30,00</p>
             </div>
           </div>
         </div>
       </div>
     </div>
 
-    <div class="Footer">
+    <div class="Footer" id="Outros">
       <div class="ProBox">
         <p>Gmail</p>
-        <img src="/assets/images/Gmail.png" alt="" />
+        <img src="assets/images/Gmail.png" alt="Logo do Gmail" />
       </div>
       <div class="ProBox">
         <p>Youtube</p>
-        <img src="/assets/images/YouTube.png" alt="" />
+        <img src="assets/images/YouTube.png" alt="Logo do YouTube" />
       </div>
     </div>
   </body>
